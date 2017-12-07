@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>jQuery PWStrength</title>
+    <link href="demo/style.css" rel="stylesheet" type="text/css">
+	
+	<style>
+
+
+	.pw-strong .bar {
+		background: #f3b31a;
+		width: 120px;
+	}
+	
+	</style>
+</head>
+<body>
+            <h2>Example</h2>
+            <form action="#" method="post">
+                <label for="field">Password:</label><br>
+                <input type="password" id="field" data-indicator="pwindicator">
+                <div id="pwindicator" class="pw-very-weak">
+                    <div class="bar"></div>
+                </div>
+                <div id="pwindicator" class="pw-weak">
+                    <div class="bar"></div>
+                </div>
+                <div id="pwindicator" class="pw-strong">
+                    <div class="bar"></div>
+                </div>
+            </form>
+            
+</body>
+</html>
